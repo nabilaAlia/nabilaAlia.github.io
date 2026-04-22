@@ -51,6 +51,18 @@ p strong {
     margin-bottom: 10px;
 }
 
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.project-tag {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+    font-weight: 300;
+}
+
 //*.header {
   padding: 60px 20px;
   text-align: center;
