@@ -37,6 +37,20 @@ p strong {
   border-bottom: 0.5 px solid #dcdcdc;
 }
 
+.project {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
 //*.header {
   padding: 60px 20px;
   text-align: center;
