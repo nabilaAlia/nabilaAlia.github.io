@@ -5,15 +5,36 @@
 
 } 
 
-
-
-
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b1220;
-  color: #e7eaf0;
-  line-height: 1.6;
+  background-color: #fffafa;
+  color: #ffb6c1;
+}
+
+h1 {
+   font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.intro strong {
+       font-weight: 600;
+}
+
+p strong {
+       font-weight: 600;
+      line-height: 1.6;
+}
+
+.intro {
+  max-width: 700px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border-bottom: 0.5 px solid #dcdcdc;
 }
 
 .header {
