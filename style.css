@@ -37,7 +37,7 @@ p strong {
   border-bottom: 0.5 px solid #dcdcdc;
 }
 
-.header {
+//*.header {
   padding: 60px 20px;
   text-align: center;
   background: #0f1b33;
@@ -101,5 +101,5 @@ h2 {
 
 .link:hover {
   text-decoration: underline;
-}
+}*//
 
