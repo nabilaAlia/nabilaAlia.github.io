@@ -106,3 +106,31 @@ li {
   border-top: 1px solid #eee;
   margin-top: 50px;
 }
+
+/* --- New Project Image Gallery --- */
+
+/* 1. The Container (Light-grey box with padding) */
+.project-image-gallery {
+  display: flex; /* Makes the images sit side-by-side */
+  justify-content: center; /* Centers the whole gallery group */
+  gap: 20px; /* Adds space between the images */
+  background-color: #f1f1f1; /* Light grey background (matches image_2.png) */
+  padding: 30px; /* Padding around the images, inside the container */
+  border-radius: 12px; /* Rounded corners for the light-grey container */
+  margin: 20px 0; /* Spacing above and below the gallery in the document */
+}
+
+/* 2. Individual Image Items (The containers for each img) */
+.image-item {
+  flex: 1; /* Allows each image item to take up equal space */
+  max-width: 300px; /* Optional: Sets a maximum width for each image */
+  text-align: center; /* Ensures the image is centered in its item space */
+}
+
+/* 3. The Actual Image (Tells the img how to behave) */
+.image-item img {
+  width: 100%; /* The image fills its item's width (max 300px) */
+  height: auto; /* Keeps the correct aspect ratio (stops stretching) */
+  display: block; /* Removes any tiny space underneath the img */
+  border-radius: 8px; /* Optional: A slight rounded corner for the images themselves */
+}
