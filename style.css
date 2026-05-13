@@ -134,3 +134,57 @@ li {
   display: block; /* Removes any tiny space underneath the img */
   border-radius: 8px; /* Optional: A slight rounded corner for the images themselves */
 }
+
+/* --- 1. Project Layout (Make space for the button) --- */
+.project-header {
+  display: flex;
+  justify-content: space-between; /* Pushes title left and button right */
+  align-items: center; /* Aligns them vertically */
+  margin-bottom: 10px;
+}
+
+/* --- 2. The GitHub External Link Button --- */
+.btn-github-external {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;  /* Size of the circle */
+  height: 40px; /* Size of the circle */
+  background-color: #00bcd4; /* The cyan/blue color from image_10.png */
+  color: #fff; /* Icon color (white) */
+  border-radius: 50%; /* Makes it a perfect circle */
+  text-decoration: none; /* Removes the underline */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: A slight shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+}
+
+/* Icon size within the button */
+.btn-github-external i {
+  font-size: 1.2rem;
+}
+
+/* --- 3. Hover Effects (Interactive feel) --- */
+.btn-github-external:hover {
+  background-color: #0097a7; /* Darker blue when hovered */
+  transform: scale(1.1); /* Slightly grows when hovered */
+  color: #fff;
+}
+
+/* --- 4. Project Tag Styling (Pills) --- */
+/* To get those little pills at the bottom, add this: */
+.project-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.tag {
+  background-color: #111c35; /* Dark blue from original CSS */
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
